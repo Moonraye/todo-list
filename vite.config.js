@@ -17,5 +17,5 @@ export default defineConfig({
       usePolling: true,
     }
   }, 
-  base: /todo-list/
+  base: '/todo-list/'
 })

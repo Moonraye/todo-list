@@ -1,9 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import TodoListApp from './components/todoList'
+import App from './App'
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <TodoListApp />
+    <App />
   </StrictMode>,
 )
